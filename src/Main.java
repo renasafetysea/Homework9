@@ -18,7 +18,9 @@ public class Main {
         System.out.println("Название книги - " + loveOfLife.getTitle());
         System.out.println("Издана в - " + loveOfLife.getYear() + " году");
         loveOfLife.setYear(1908);
-        System.out.println(stivenK);
+        System.out.println(later);
+        System.out.println(later.hashCode()== l.hashCode());
+        System.out.println(jackLondon.equals(stivenK));
 }
 }
 
