@@ -23,12 +23,10 @@ public class Autor {
         Autor autor = (Autor) o;
         return name.equals(autor.name) && surname.equals(autor.surname);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(name, surname);
     }
-
     @Override
     public String toString() {
         return "Autor{" +

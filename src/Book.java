@@ -37,7 +37,6 @@ public class Book {
     public int hashCode() {
         return Objects.hash(title, autor, year);
     }
-
     @Override
     public String toString() {
         return "Book{" +

@@ -19,7 +19,6 @@ public class Main {
         System.out.println("Издана в - " + loveOfLife.getYear() + " году");
         loveOfLife.setYear(1908);
         System.out.println(stivenK);
-        System.out.println(l.hashCode());
 }
 }
 
